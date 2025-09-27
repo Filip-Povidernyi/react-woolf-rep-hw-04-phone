@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 const App = () => {
 
   const [contacts, setContacts] = useState(() => {
-    const saved = localStorage.getItem('contacts');
+    const saved = window.localStorage.getItem('contacts');
     return saved ? JSON.parse(saved) : 
     [
       { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
@@ -26,7 +26,7 @@ const App = () => {
   };
   
   useEffect(() => {
-    localStorage.setItem('contacts', JSON.stringify(contacts));
+    window.localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
 
   const addContact = (name, number) => {
