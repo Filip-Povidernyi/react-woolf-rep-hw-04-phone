@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-woolf-rep-hw-04-phone/static/css/main.35568701.css",
+    "main.js": "/react-woolf-rep-hw-04-phone/static/js/main.f8c85d34.js",
+    "index.html": "/react-woolf-rep-hw-04-phone/index.html",
+    "main.35568701.css.map": "/react-woolf-rep-hw-04-phone/static/css/main.35568701.css.map",
+    "main.f8c85d34.js.map": "/react-woolf-rep-hw-04-phone/static/js/main.f8c85d34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35568701.css",
+    "static/js/main.f8c85d34.js"
+  ]
+}
